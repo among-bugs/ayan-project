@@ -29,13 +29,13 @@
         <div class="container-fluid"><a class="navbar-brand" href="#" style="font-family: Cinzel, serif;font-size: 28px;"><img src="assets/img/18e31237.png" style="width: 70px;">&nbsp; &nbsp;zhptk.kz</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse d-xl-flex justify-content-xl-center align-items-xl-center" id="navcol-1">
                 <ul class="navbar-nav d-xl-flex">
-                    <li class="nav-item"><a class="nav-link" href="index.html" style="width: 102.719px;">Басты бет</a></li>
-                    <li class="nav-item"><a class="nav-link" href="staffs.html">Қызметкерлер</a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://calccreator.com/Create">Калькулятор</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Фотогалерея</a></li>
-                    <li class="nav-item"><a class="nav-link" href="calling.html" style="width: 173.828px;">Бізбен байланыс</a></li>
+                    <li class="nav-item"><a class="nav-link" id="main-content" href="index.html" style="width: 180.719px;">Басты бет</a></li>
+                    <li class="nav-item"><a class="nav-link" id="staffs-content" href="staffs.html">Қызметкерлер</a></li>
+                    <li class="nav-item"><a class="nav-link" id="calculator-content"  href="http://calccreator.com/Create">Калькулятор</a></li>
+                    <li class="nav-item"><a class="nav-link" id="gallery-content"  href="gallery.html">Фотогалерея</a></li>
+                    <li class="nav-item"><a class="nav-link" id="calling-content"  href="calling.html" style="width: 173.828px;">Бізбен байланыс</a></li>
                     <li class="nav-item d-xl-flex justify-content-xl-center align-items-xl-center">
-                        <div class="btn-group" role="group"><button class="btn btn-link d-xl-flex justify-content-xl-center align-items-xl-center" type="button"><img class="shadow" src="https://lh3.googleusercontent.com/proxy/MXPeMDDhxQEo4GdhgtQ22_CCNsm59RkBDCZmXjpL8cz7S5CXwzrFbUqZ3QBOgrfSENcP6TpcvxuP7BEWg4Nus6khG4PALT26W0xmO5CHk1Jk" style="width: 50px;"></button><button class="btn btn-link d-xl-flex justify-content-xl-center align-items-xl-center" type="button"><img class="shadow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/250px-Flag_of_Russia.svg.png" style="width: 50px;height: 25px;"></button></div>
+                        <div class="btn-group" role="group"><button class="btn btn-link d-xl-flex justify-content-xl-center align-items-xl-center" onclick="ifSetKaz()" type="button"><img src="https://lh3.googleusercontent.com/proxy/MXPeMDDhxQEo4GdhgtQ22_CCNsm59RkBDCZmXjpL8cz7S5CXwzrFbUqZ3QBOgrfSENcP6TpcvxuP7BEWg4Nus6khG4PALT26W0xmO5CHk1Jk" style="width: 50px;"></button><button class="btn btn-link d-xl-flex justify-content-xl-center align-items-xl-center" onclick="ifSetRus()" type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/250px-Flag_of_Russia.svg.png" style="width: 50px;height: 25px;"></button></div>
                     </li>
                 </ul>
             </div>
@@ -44,11 +44,11 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12 d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="margin-top: 28px;">
-                <h1>Бізбен байланыс</h1>
+                <h1 class="calling-heading-content">Бізбен байланыс</h1>
             </div>
             <div class="col-xl-12 d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="margin-top: 24px;margin-bottom: 24px;"><img src="https://www.pngkey.com/png/full/87-873530_calling-png-hd-whatsapp-and-call-logo.png" style="width: 254px;"></div>
             <div class="col-xl-12 d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center">
-                <p>Paragraph</p>
+                <p class="calling-paragraph-content">Paragraph</p>
             </div>
         </div>
         <div class="row d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="margin-bottom: 30px;">
@@ -91,6 +91,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="content.js"></script>
 </body>
 
 </html>
